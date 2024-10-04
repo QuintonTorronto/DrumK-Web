@@ -3,7 +3,7 @@ var drumKeys = document.getElementsByClassName("drum");
 var numDrumBtns=drumKeys.length;
 
 for(var i=0; i < numDrumBtns ; i++ ){
-    document.querySelectorAll(".drum").addEventListener("click", function(){
+    document.querySelectorAll(".drum").addEventListener("click", function handleClick(){
         var buttonInnerHTML=this.InnerHTML;
         switch(buttonInnerHTML){
             case "w":
