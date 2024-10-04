@@ -2,8 +2,9 @@ var numDrumBtns=document.querySelectorAll(".drum").length;
 
 for(var i=0; i < numDrumBtns ; i++ ){
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
-        const buttonInnerHTML=this.InnerHTML;
+        var buttonInnerHTML=this.innerHTML;
         makeSound(buttonInnerHTML);
+        buttonAnimation(buttonInnerHTML);
     });
 }
 
@@ -44,7 +45,7 @@ function makeSound(key){
                 kickBass.play();
                 break;
     
-            default: console.log(buttonInnerHTML);
+            default: console.log(key);
         }
 }
 
