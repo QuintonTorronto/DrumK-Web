@@ -6,7 +6,7 @@ for(var i=0; i < numDrumBtns ; i++ ){
         makeSound(buttonInnerHTML);
         buttonAnimation(buttonInnerHTML);
     });
-}
+}   
 
 document.addEventListener("keydown", function(event){
     makeSound(event.key);
