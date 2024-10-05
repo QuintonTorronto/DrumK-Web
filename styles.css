@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #d4711fd0;
+  background-color: #283149;
 }
 
 h1 {
@@ -54,7 +54,7 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #f3e9db;
+  box-shadow: 0 3px 4px 0 #e4890a;
   opacity: 0.5;
 }
 
